@@ -1,0 +1,21 @@
+name: Suggest a feature
+description: An idea for something Drone Zones UK could do
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please check the [existing ideas](https://github.com/skisy/dronezones-uk/issues?q=is%3Aissue+label%3Aenhancement) first; if yours is there, add a 👍 to it instead.
+        Posts here are public, so please don't include personal details such as your home location.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the app to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help you when planning or flying?
+    validations:
+      required: false
